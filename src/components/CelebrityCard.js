@@ -17,7 +17,7 @@ let CelebrityCard = (props) => {
                 <CardTitle style={{background: '#4682b4', color: '#fff'}}>
                     <b style={{margin: '0 40%'}}>No: {props.celebrity.rank}</b>
                 </CardTitle>
-                <CardText>
+                <CardText className="test-card-data">
                     <p>Name: {props.celebrity.name}</p>
                     <p>Net Worth: {currency + ' ' +props.celebrity.netWorth}</p>
                     <p>Age: {props.celebrity.age}</p>
