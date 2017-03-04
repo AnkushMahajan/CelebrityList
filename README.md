@@ -1,5 +1,8 @@
 A TDD approach followed React JS project to implement sorting filtering and searching on a list of data { used list of Rich Celebrities in here }
 
+# install dependencies { bare minimum }
+npm install
+
 # Run Project as:
 npm start
 
