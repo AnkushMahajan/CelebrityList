@@ -1,0 +1,28 @@
+{
+  "name": "CelebrityList",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "enzyme": "^2.7.1",
+    "eslint": "^3.16.1",
+    "eslint-plugin-react": "^6.9.0",
+    "eslint-plugin-react-native": "^2.2.1",
+    "jest": "^19.0.2",
+    "react-addons-test-utils": "^15.4.2",
+    "react-scripts": "0.9.3",
+    "react-test-renderer": "^15.4.2"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-mdl": "^1.9.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "verify": "eslint -c config/verify/.eslintrc \"src/**/*.js\" \"config/**/*.js\" && echo ✅ verify:js success",
+    "release": "npm-run-all verify test",
+    "eject": "react-scripts eject"
+  }
+}
