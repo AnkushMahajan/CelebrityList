@@ -12,5 +12,8 @@ Testing has been achieved by using Jest https://facebook.github.io/jest/docs/get
 
 At the time of submitting the first set of code ( almost complete ) the code coverage was > 96% 
 
+<img width="1336" alt="screen shot 2017-03-04 at 11 16 19 pm" src="https://cloud.githubusercontent.com/assets/5379745/23578735/9fa977d8-0131-11e7-99e0-c1c145e61c69.png">
+
+
 # For Linting:
 eslint and eslint plugin for react has been used
