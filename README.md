@@ -20,3 +20,7 @@ At the time of submitting the first set of code ( almost complete ) the code cov
 
 # For Linting:
 eslint and eslint plugin for react has been used
+
+# Production build
+npm run build 
+it will generate a build folder having minified files
