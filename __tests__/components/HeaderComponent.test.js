@@ -14,7 +14,7 @@ it('should be able to render Header properly', () => {
 
 it('should have different header tags rendered correctly', () => {
 
-    expect(HeaderComp.find('h3')).toHaveLength(2);
+    expect(HeaderComp.find('h3')).toHaveLength(1);
     expect(HeaderComp.find('h4')).toHaveLength(1);
     expect(HeaderComp.find('h6')).toHaveLength(1);
 });
@@ -22,8 +22,7 @@ it('should have different header tags rendered correctly', () => {
 it('should check if the text in header tags is correct', () => {
 
     const h3Header = HeaderComp.find('h3');
-
-    expect(h3Header.at(0).text()).toEqual('Title1');
-    expect(h3Header.at(1).text()).toEqual('Title2');
+  
+    expect(h3Header.at(0).text()).toEqual('Title2');
     expect(HeaderComp.find('h4').text()).toEqual('Description');
 });
